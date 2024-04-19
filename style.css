@@ -1,0 +1,59 @@
+body{
+    background-image: url("green.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+container{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto 1fr auto ;
+   grid-area: "header" "main" "recipis" ;
+   
+}
+header{
+   color: blue;
+    text-align: center;
+    
+    border: 2px solid green;
+    
+}
+main{
+    background-color: transparent;
+
+}
+#sf{
+    font-family:'Times New Roman', Times, serif;
+
+}
+#buttons{
+    float: left;
+}
+#options{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+    margin-left:25%;
+
+}
+#button{
+    padding: 2vh;
+    margin-top: 5vh;
+}
+
+
+#recipi{
+    background-color: orange; /* Light Yellow */
+    grid-area: recipe;
+    border-radius: 15px;
+}
+#owner{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#greeting{
+    float: left;
+    margin-top: 0%;
+    padding: 0;
+}
